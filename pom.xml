@@ -143,8 +143,12 @@
             <version>1.9.3</version>
         </dependency>
 
-
-
+        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.8</version>
+        </dependency>
 
     </dependencies>
 
