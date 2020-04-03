@@ -3,6 +3,7 @@ package com.crossoverjie.concurrent.collections;
 import com.google.common.collect.Lists;
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.info.GraphLayout;
+import sun.misc.Unsafe;
 
 import java.util.ArrayList;
 import java.util.List;
