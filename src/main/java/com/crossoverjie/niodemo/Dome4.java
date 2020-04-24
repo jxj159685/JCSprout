@@ -7,7 +7,9 @@ import java.nio.channels.FileChannel;
 
 public class Dome4 {
     public static void main(String[] args) throws Exception {
+        //写进文件
         FileOutputStream fileOutputStream=new FileOutputStream("dome4write.txt");
+        //读取文件
         FileInputStream fileInputStream=new FileInputStream("dome4read.txt");
 
         FileChannel channelRead = fileInputStream.getChannel();

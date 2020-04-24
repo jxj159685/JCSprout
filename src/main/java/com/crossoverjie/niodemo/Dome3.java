@@ -12,7 +12,7 @@ public class Dome3 {
         ByteBuffer byteBuffer=ByteBuffer.allocate(1024);
         byteBuffer.put(bytes);
         byteBuffer.flip();
-        channel.write(byteBuffer);
+        System.out.println(channel.write(byteBuffer));
         fileOutputStream.close();
     }
 }
