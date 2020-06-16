@@ -16,7 +16,7 @@ public class NioClient {
         //设置非阻塞式
         socketChannel.configureBlocking(false);
         //提供服务器ip与端口
-        InetSocketAddress inetSocketAddress=new InetSocketAddress("127.0.0.1",9090);
+        InetSocketAddress inetSocketAddress = new InetSocketAddress("127.0.0.1", 1444);
         //连接服务器端
         if(!socketChannel.connect(inetSocketAddress)){     //如果连接不上
             while(!socketChannel.finishConnect()){
